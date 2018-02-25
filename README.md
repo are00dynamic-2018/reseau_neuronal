@@ -8,8 +8,10 @@
 - CAO Song Toan 
 - PINTO VIDEIRA Michael
 
+## Documents de référence :
 
-## Présentation du sujet 
+
+## Présentation du sujet :
 <img src="Annexes/Images/structure_neurone_biologique.png" width="50%" align="middle">
 
 Un neurone est une unité fonctionnelle réalisant une sommation spatiale et temporelle de ses entrées (les dendrites) à tout instant. Si le résultat (alors sous la forme d'un potentiel électrique) est supérieur à un certain seuil, le neurone envoie un influx nerveux, aussi dit potentiel d'action via son axone. Les synapses permettent alors la conversion de ce signal électrique en un signal chimique perceptible par les autres neurones qui y sont connectés. 
@@ -34,8 +36,8 @@ Cette modélisation prend en compte l'efficacité des connexions entre neurone. 
 
 ### Quatrième Modélisation :
 Cette modélisation prend en compte la plasticité synaptique
-### Plasticité à court terme
+### Plasticité à court terme :
 
 <img src="Annexes/Images/plasticite_court_terme.png" width="75%" align="middle">
 
-### Plasticité à long terme
+### Plasticité à long terme :
