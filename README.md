@@ -34,4 +34,8 @@ Cette modélisation prend en compte l'efficacité des connexions entre neurone. 
 
 ### Quatrième Modélisation :
 Cette modélisation prend en compte la plasticité synaptique
+### Plasticité à court terme
 
+<img src="Annexes/Images/plasticite_court_terme.png" width="60%" align="middle">
+
+### Plasticité à long terme
