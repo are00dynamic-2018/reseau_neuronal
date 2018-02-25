@@ -1,8 +1,6 @@
-# reseau_neuronal
+# Simulation d'un réseau de neurones biologiques après l'ajout de substances psychoactives
 
-<img height="100" src="Annexes/Images/neurone_illustration.png" width="50%" align="left">
-
-## Etude de la dynamique d'un réseau de neurones biologique après l'ajout de perturbations
+<img src="Annexes/Images/neurone_illustration.png" width="50%" align="left">
 
 **Membre du groupe de recherche :**
 - L'HARIDON Nora
