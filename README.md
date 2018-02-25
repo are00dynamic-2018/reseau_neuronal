@@ -1,6 +1,6 @@
 # reseau_neuronal
 
-<img align="left" width="100" height="100" src="Annexes/Images/neurone_illustration.png">
+<img height="100" src="Annexes/Images/neurone_illustration.png" width="50%" align="left">
 
 ## Etude de la dynamique d'un réseau de neurones biologique après l'ajout de perturbations
 
