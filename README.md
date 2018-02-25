@@ -1,5 +1,5 @@
 # reseau_neuronal
-reseau_neuronal/Annexes/Images/neurone_illustration.png
+![Alt text](reseau_neuronal/Annexes/Images/neurone_illustration.png)
 Etude de la dynamique d'un réseau de neurones biologique après l'ajout de perturbations 
 
 MEMBRES: 
