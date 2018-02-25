@@ -23,3 +23,6 @@ Nous traduisons cette formule sous forme matricielle afin de simplifier les calc
 <img src="Annexes/Images/formule_model_simple_matricielle.png" width="90%" align="middle">
 
 ### Deuxième Modélisation :
+Dans cette modélisation, on prend en compte le temps de décroissance du potentiel après une dépolarisation du neurone considéré
+
+<img src="Annexes/Images/formule_decroissance_temps.png.png" width="90%" align="middle">
