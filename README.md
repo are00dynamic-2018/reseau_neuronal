@@ -8,6 +8,7 @@
 - CAO Song Toan 
 - PINTO VIDEIRA Michael
 
-<align="rigth">
+
+
 ## Présentation du sujet 
 
