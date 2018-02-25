@@ -30,12 +30,12 @@ Dans cette modélisation, on prend en compte le temps de décroissance du potent
 ### Troisième Modélisation :
 Cette modélisation prend en compte l'efficacité des connexions entre neurone. Les seuls éléments à modifier par rapport à la modélisation précédente sont : 
 
-<img src="Annexes/Images/formule_poids_connexions.png" width="90%" align="middle">
+<img src="Annexes/Images/formule_poids_connexions.png" width="650%" align="middle">
 
 ### Quatrième Modélisation :
 Cette modélisation prend en compte la plasticité synaptique
 ### Plasticité à court terme
 
-<img src="Annexes/Images/plasticite_court_terme.png" width="60%" align="middle">
+<img src="Annexes/Images/plasticite_court_terme.png" width="750%" align="middle">
 
 ### Plasticité à long terme
