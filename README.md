@@ -7,12 +7,13 @@
 - [Membre du groupe de recherche](#membres)  
 - [Modélisations mathématiques](#doc_ref)  
 - [Présentation sommaire du sujet](#sujet)
-- [Une première modélisation (simplifiée)](#modélisation_simplifiee)
-- [Prise en compte de la décroissace du potentiel](#Modélisation_décroissance_potentiel)
-- [Prise en compte de l'efficacité des connexions neuronales](#Modélisation_efficacite_connexions)
-- [Prise en compte de la plasticité synaptique](#Modélisation_plasticité)
-  - [Plasticité à court terme](#Modélisation_plasticité_court_terme)
-  - [Plasticité à long terme](#Modélisation_plasticité_long_terme)
+- [Modélisation d'un réseau biologique](#modélisation_simplifiee)
+  - [Une première modélisation (simplifiée)](#modélisation_simplifiee)
+  - [Prise en compte de la décroissace du potentiel](#Modélisation_décroissance_potentiel)
+  - [Prise en compte de l'efficacité des connexions neuronales](#Modélisation_efficacite_connexions)
+  - [Prise en compte de la plasticité synaptique](#Modélisation_plasticité)
+    - [Plasticité à court terme](#Modélisation_plasticité_court_terme)
+    - [Plasticité à long terme](#Modélisation_plasticité_long_terme)
 
 
 
@@ -41,6 +42,7 @@
 Un neurone est une unité fonctionnelle réalisant une sommation spatiale et temporelle de ses entrées (les dendrites) à tout instant. Si le résultat (alors sous la forme d'un potentiel électrique) est supérieur à un certain seuil, le neurone envoie un influx nerveux, aussi dit potentiel d'action via son axone. Les synapses permettent alors la conversion de ce signal électrique en un signal chimique perceptible par les autres neurones qui y sont connectés. 
 
 
+<a name="Modélisations"/>
 
 ## Modélisations d'un réseau neuronal biologique
 
