@@ -1,4 +1,4 @@
-# Simulation d'un réseau de neurones biologiques après l'ajout de substances psychoactives
+# Simulation d'un réseau de neurones biologique après l'ajout de substances psychoactives
 
 <img src="Annexes/Images/neurone_illustration.png" width="50%" align="middle">
 
