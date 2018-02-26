@@ -2,6 +2,14 @@
 
 <img src="Annexes/Images/neurone_illustration.png" width="50%" align="middle">
 
+
+##### Table of Contents  
+[Headers](#membres)  
+[Emphasis](#emphasis)  
+
+
+
+<a name="membres"/>
 **Membre du groupe de recherche :**
 - L'HARIDON Nora
 - WEBER Benajmin
