@@ -4,15 +4,15 @@
 
 
 ##### Sommaire
-[Membre du groupe de recherche](#membres)  
-[Modélisations mathématiques](#doc_ref)  
-[Présentation sommaire du sujet](#sujet)
-[Une première modélisation (simplifiée)](#modélisation_simplifiee)
-[Prise en compte de la décroissace du potentiel](#"Modélisation_décroissance_potentiel")
-[Prise en compte de l'efficacité des connexions neuronales](#"Modélisation_efficacite_connexions")
-[Prise en compte de la plasticité synaptique](#"Modélisation_plasticité")
-  [Plasticité à court terme](#"Modélisation_plasticité_court_terme")
-  [Plasticité à long terme](#"Modélisation_plasticité_long_terme")
+- [Membre du groupe de recherche](#membres)  
+- [Modélisations mathématiques](#doc_ref)  
+- [Présentation sommaire du sujet](#sujet)
+- [Une première modélisation (simplifiée)](#modélisation_simplifiee)
+- [Prise en compte de la décroissace du potentiel](#Modélisation_décroissance_potentiel)
+- [Prise en compte de l'efficacité des connexions neuronales](#Modélisation_efficacite_connexions)
+- [Prise en compte de la plasticité synaptique](#Modélisation_plasticité)
+  - [Plasticité à court terme](#Modélisation_plasticité_court_terme)
+  - [Plasticité à long terme](#Modélisation_plasticité_long_terme)
 
 
 
