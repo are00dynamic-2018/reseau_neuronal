@@ -9,7 +9,7 @@
 - PINTO VIDEIRA Michael
 
 ## Documents de références :
-- Pour voir notre modélisation mathématique dans son ensemble voir le doucement : _reseau_neuronal_biologique_theorie.pdf_
+- Pour voir notre modélisation mathématique dans son ensemble voir le doucement : _[](reseau_neuronal_biologique_theorie.pdf)_
 - Pour voir nos travaux de recherches préalables (travaux de découverte du sujet) s'orienter vers le document : _recherche_reseau_neurone.pdf_
 
 ## Présentation du sujet :
