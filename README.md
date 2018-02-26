@@ -46,7 +46,7 @@ Un neurone est une unité fonctionnelle réalisant une sommation spatiale et tem
 
 # Modélisations d'un réseau neuronal biologique
 
-Pour les détails et explications de ces modélisations se référer à la section [Modélisations mathématiques](#doc_ref)  
+Pour les détails et explications de ces modélisations se référer au document [Modélisation mathématique](/Annexes/Documents/reseau-neuronal-biologique-theorie.pdf) 
 
 
 <a name="modélisation_simplifiee"/>
