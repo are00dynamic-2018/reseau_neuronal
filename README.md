@@ -80,7 +80,7 @@ Cette modélisation prend en compte l'efficacité des connexions entre neurone. 
 
 
 
-<a name="Modélisation_plasticité/>
+<a name="Modélisation_plasticité"/>
 
 
 ## Quatrième Modélisation :
