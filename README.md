@@ -8,11 +8,11 @@
 [Modélisations mathématiques](#doc_ref)  
 [Présentation sommaire du sujet](#sujet)
 [Une première modélisation (simplifiée)](#modélisation_simplifiee)
-[Prise en compte de la décroissace du potentiel]("Modélisation_décroissance_potentiel")
-[Prise en compte de l'efficacité des connexions neuronales]("Modélisation_efficacite_connexions")
-[Prise en compte de la plasticité synaptique]("Modélisation_plasticité")
-  [Plasticité à court terme]("Modélisation_plasticité_court_terme")
-  [Plasticité à long terme]("Modélisation_plasticité_long_terme")
+[Prise en compte de la décroissace du potentiel](#"Modélisation_décroissance_potentiel")
+[Prise en compte de l'efficacité des connexions neuronales](#"Modélisation_efficacite_connexions")
+[Prise en compte de la plasticité synaptique](#"Modélisation_plasticité")
+  [Plasticité à court terme](#"Modélisation_plasticité_court_terme")
+  [Plasticité à long terme](#"Modélisation_plasticité_long_terme")
 
 
 
@@ -44,7 +44,7 @@ Un neurone est une unité fonctionnelle réalisant une sommation spatiale et tem
 
 ## Modélisations d'un réseau neuronal biologique
 
-Pour les détails et explication de ces modélisations ce référer à la section [Modélisations mathématiques](#doc_ref)  
+Pour les détails et explications de ces modélisations se référer à la section [Modélisations mathématiques](#doc_ref)  
 
 
 <a name="modélisation_simplifiee"/>
