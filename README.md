@@ -27,7 +27,7 @@
 <a name="doc_ref"/>
 
 
-## Documents de références :
+## Modélisations mathématiques :
 - Pour voir __notre modélisation mathématique__ dans son ensemble voir le doucement : [Modélisation mathématique](/Annexes/Documents/reseau-neuronal-biologique-theorie.pdf)
 - Pour voir __nos travaux de recherches préalables__ (travaux de découverte du sujet) s'orienter vers le document : [Préambule des recherches](/Annexes/Documents/recherche_reseau_neurone.pdf)
 
