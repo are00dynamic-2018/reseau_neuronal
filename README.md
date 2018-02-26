@@ -1,9 +1,9 @@
 # Simulation d'un réseau de neurones biologique après l'ajout de substances psychoactives
 
-<img src="Annexes/Images/neurone_illustration.png" width="50%" align="middle">
+<img src="Annexes/Images/neurone_illustration.png" width="50%" align="rigth">
 
 
-##### Sommaire
+# Sommaire
 - [Membre du groupe de recherche](#membres)  
 - [Modélisations mathématiques](#doc_ref)  
 - [Présentation sommaire du sujet](#sujet)
