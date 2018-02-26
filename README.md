@@ -3,8 +3,8 @@
 
 # Sommaire
 - [Membre du groupe de recherche](#membres)  
-- [Modélisations mathématiques](#doc_ref)  
 - [Présentation sommaire du sujet](#sujet)
+- [Modélisations mathématiques](#doc_ref)  
 - [Modélisation d'un réseau biologique](#Modélisations)
   - [Une première modélisation (simplifiée)](#modélisation_simplifiee)
   - [Prise en compte de la décroissace du potentiel](#Modélisation_décroissance_potentiel)
