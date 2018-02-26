@@ -8,7 +8,7 @@
 - CAO Song Toan 
 - PINTO VIDEIRA Michael
 
-## Documents de référence :
+## Documents de références :
 - Pour voir la modélisation mathématique dans son ensemble voir le doucement : _reseau_neuronal_biologique_theorie_
 - Pour voir les travaux de recherches préalables (travaux de découverte du sujet) s'orienter vers le document : _recherche_reseau_neurone_
 
