@@ -115,3 +115,6 @@ Cette modélisation prend en compte la plasticité synaptique
 
 - Prototypage des fonctions :
 https://docs.google.com/spreadsheets/d/1MQP3e_22xNJkt3NTb-GM5Ss8K3aWw2OJYi8oWpn6JbA/edit?usp=sharing
+
+Document de référence des fonctions crées pour toutes les modélisations. Chaque fonction doit être présentée avec son nom, ses variables d'entrées et de sorties (noms, types et significations).
+Toute personne utilisant une fonction non codée au sein de sa modélisation doit impérativement souligner la fonction utiliser sur le google sheet afin d’être prévenu d’éventuels changements de fonctions. 
