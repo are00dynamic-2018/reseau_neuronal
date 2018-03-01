@@ -2,7 +2,7 @@
 
 
 # Sommaire
-- [Espace collaborateurs](#collaborateurs)
+- [Espace collaborateur](#collaborateurs)
 - [Membre du groupe de recherche](#membres)  
 - [Attribution des taches](#taches)
 - [Présentation sommaire du sujet](#sujet)
