@@ -2,7 +2,9 @@
 
 
 # Sommaire
+- [Espace collaborateurs](#collaborateurs)
 - [Membre du groupe de recherche](#membres)  
+- [Attribution des taches](#taches)
 - [Présentation sommaire du sujet](#sujet)
 - [Modélisations mathématiques](#doc_ref)  
 - [Modélisation d'un réseau biologique](#Modélisations)
@@ -23,7 +25,16 @@
 - CAO Song Toan 
 - PINTO VIDEIRA Michael
 
+<a name="taches"/>
 
+
+# Attribution des taches :
+- CAO Song Toan : Modélisation section 0.7
+- PINTO VIDEIRA Michael : Modélisation section 0.8-0.9-0.10
+- WEBER Benajmin : Modélisation 0.11.1
+- L'HARIDON Nora : Modélisation 0.11.2
+
+Se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) pour les sections
 
 
 <a name="sujet"/>
@@ -97,3 +108,10 @@ Cette modélisation prend en compte la plasticité synaptique
 
 
 ### Plasticité à long terme :
+
+
+
+<a name="collaborateurs"/>
+
+- Prototypage des fonctions :
+https://docs.google.com/spreadsheets/d/1MQP3e_22xNJkt3NTb-GM5Ss8K3aWw2OJYi8oWpn6JbA/edit?usp=sharing
