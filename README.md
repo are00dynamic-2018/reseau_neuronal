@@ -34,7 +34,7 @@
 - WEBER Benajmin : Modélisation 0.11.1
 - L'HARIDON Nora : Modélisation 0.11.2
 
-Se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) pour les sections
+Se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou au document Latex : https://www.overleaf.com/read/wfvbnzmmkvtf pour les sections
 
 
 <a name="sujet"/>
@@ -48,7 +48,7 @@ Un neurone est une unité fonctionnelle réalisant une sommation spatiale et tem
 <a name="doc_ref"/>
 
 # Modélisations mathématiques :
-- Pour voir __notre modélisation mathématique__ dans son ensemble voir le docuement : [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf)
+- Pour voir __notre modélisation mathématique__ dans son ensemble voir le docuement : [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou utiliser le lien vers le document latex : https://www.overleaf.com/read/wfvbnzmmkvtf
 - Pour voir __nos travaux de recherches préalables__ (travaux de découverte du sujet) s'orienter vers le document : [Préambule des recherches](/Annexes/Documents/recherche_reseau_neurone.pdf)
 
 
@@ -57,7 +57,7 @@ Un neurone est une unité fonctionnelle réalisant une sommation spatiale et tem
 
 # Modélisations d'un réseau neuronal biologique
 
-Pour les détails et explications de ces modélisations se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) 
+Pour les détails et explications de ces modélisations se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou au document Latex : https://www.overleaf.com/read/wfvbnzmmkvtf
 
 
 <a name="modélisation_simplifiee"/>
