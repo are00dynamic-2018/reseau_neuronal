@@ -1,6 +1,6 @@
 # Compte rendu : semaine 1
 
-- Mise en commun des recherches (disponibles [ici](/Anexes/Documents/recherche_reseau_neurone.pdf)).
+- Mise en commun des recherches (disponibles [ici](/Annexes/Documents/recherche_reseau_neurone.pdf)).
 - Définition des grands axes à suivre (les différentes modélisations à suivre et celles à ne pas explorer). De cette discussion, il en résulte que nous ne prendrons pas en compte la spatialisation, ou si elle est faite sera abordée de manière primitive.   
 - Rehcerches des paramètres à analyser
 - Choix des paramètres à faire varier. Il en résulte que nous ne ferons varier que très peu de paramètre :
