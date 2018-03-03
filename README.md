@@ -113,6 +113,9 @@ Cette modélisation prend en compte la plasticité synaptique
 
 <a name="collaborateurs"/>
 
+# Espace collaborateur
+
+
 - Prototypage des fonctions :
 https://docs.google.com/spreadsheets/d/1MQP3e_22xNJkt3NTb-GM5Ss8K3aWw2OJYi8oWpn6JbA/edit?usp=sharing
 
