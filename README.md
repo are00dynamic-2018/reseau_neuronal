@@ -3,6 +3,7 @@
 
 # Sommaire
 - [Espace collaborateur](#collaborateurs)
+- [Comptes rendus](#compte_rendu)
 - [Membre du groupe de recherche](#membres)  
 - [Attribution des taches](#taches)
 - [Présentation sommaire du sujet](#sujet)
@@ -14,6 +15,15 @@
   - [Prise en compte de la plasticité synaptique](#Modélisation_plasticité)
     - [Plasticité à court terme](#Modélisation_plasticité_court_terme)
     - [Plasticité à long terme](#Modélisation_plasticité_long_terme)
+
+
+<a name="compte_rendu"/>
+[Semaine 1](/Annexes/Documents/Comptes_rendus/semaine_1.md)
+
+
+
+
+
 
 
 
