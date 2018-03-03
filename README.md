@@ -44,6 +44,7 @@ Se référer au document [Modélisation mathématique](/reseau-neuronal-biologiq
 
 # Planning des semaines
 
+<img src="Annexes/Images/agenda_ARE_Dynamic.png" width="100%" align="middle">
 
 
 
@@ -138,7 +139,8 @@ Cette modélisation prend en compte la plasticité synaptique
 
 # Espace collaborateur
 
-
+- Planning des semaines :
+https://drive.google.com/open?id=1Vw6gvXTmE5HrGNWk1n0so6Bvhxphmd_pP5HaBENPydw
 - Prototypage des fonctions :
 https://docs.google.com/spreadsheets/d/1MQP3e_22xNJkt3NTb-GM5Ss8K3aWw2OJYi8oWpn6JbA/edit?usp=sharing
 
