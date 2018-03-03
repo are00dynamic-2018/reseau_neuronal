@@ -44,6 +44,9 @@ Se référer au document [Modélisation mathématique](/reseau-neuronal-biologiq
 
 # Planning des semaines
 
+[](Annexes/Images/Agenda_ARE_dynamic.png)
+
+
 <img src="Annexes/Images/Agenda_ARE_dynamic.png" width="100%" align="middle">
 
 
