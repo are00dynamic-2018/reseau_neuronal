@@ -17,17 +17,6 @@
     - [Plasticité à long terme](#Modélisation_plasticité_long_terme)
 
 
-<a name="compte_rendu"/>
-
-#Comptes rendus :
-
-[Semaine 1](/Annexes/Comptes_rendus/semaine_1.md)
-
-
-
-
-
-
 
 
 <a name="membres"/>
@@ -121,6 +110,18 @@ Cette modélisation prend en compte la plasticité synaptique
 
 
 ### Plasticité à long terme :
+
+
+
+
+
+
+<a name="compte_rendu"/>
+
+# Comptes rendus :
+
+[Semaine 1](/Annexes/Comptes_rendus/semaine_1.md)
+
 
 
 
