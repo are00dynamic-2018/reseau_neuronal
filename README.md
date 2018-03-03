@@ -120,8 +120,8 @@ Cette modélisation prend en compte la plasticité synaptique
 
 # Comptes rendus :
 
-[Semaine 1](/Annexes/Comptes_rendus/semaine_1.md)
-[Semaine 2](/Annexes/Comptes_rendus/semaine_2.md)
+- [Semaine 1](/Annexes/Comptes_rendus/semaine_1.md)
+- [Semaine 2](/Annexes/Comptes_rendus/semaine_2.md)
 
 
 
