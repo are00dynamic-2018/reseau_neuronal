@@ -4,6 +4,7 @@
 # Sommaire
 - [Espace collaborateur](#collaborateurs)
 - [Comptes rendus](#compte_rendu)
+- [Planning des semaines](#agenda)
 - [Membre du groupe de recherche](#membres)  
 - [Attribution des taches](#taches)
 - [Présentation sommaire du sujet](#sujet)
@@ -37,6 +38,13 @@
 - L'HARIDON Nora : Modélisation 0.11.2
 
 Se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou au document Latex : https://www.overleaf.com/read/wfvbnzmmkvtf pour les sections
+
+
+<a name="agenda"/>
+
+# Planning des semaines
+
+
 
 
 <a name="sujet"/>
