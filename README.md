@@ -40,6 +40,7 @@
 Se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou au document Latex : https://www.overleaf.com/read/wfvbnzmmkvtf pour les sections
 
 
+
 <a name="agenda"/>
 
 # Planning des semaines
