@@ -9,5 +9,6 @@ Pour voir ces différentes points se référer au document [Modélisation mathé
 - Attribution des différentes taches à chaque membre 
 - Mise en place d'un agenda jusqu'a la fin du projet (disponible [ici](https://drive.google.com/open?id=1Vw6gvXTmE5HrGNWk1n0so6Bvhxphmd_pP5HaBENPydw))
 - Discussion sur le temps dans la simulation (simulation synchrone ou asynchrone, c'est-a-dire si à chaque étape la sortie de tous les neurones doivent être calculé ou seulement ceux activé à l'étape précédente)
+- Abandon de la modélisation sur la plasticité à long terme : comme la plasticité à court terme et long terme produisent les mêmes effets, mais pour des raisons différentes, la prise en compte de ces deux phénomènes dans nos modélisations rendrait le modèle trop complexe à analyser, ou du moins prendrait un temps d’analyse dont nous ne disposons pas
 - Première implémentation à l'aide de Python de la modélisation simplifiée
 - Fin de la rédaction des dernières modélisations mathématiques (sur la plasticité synaptique)
