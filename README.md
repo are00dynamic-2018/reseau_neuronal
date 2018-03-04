@@ -15,7 +15,6 @@
   - [Prise en compte de l'efficacité des connexions neuronales](#Modélisation_efficacite_connexions)
   - [Prise en compte de la plasticité synaptique](#Modélisation_plasticité)
     - [Plasticité à court terme](#Modélisation_plasticité_court_terme)
-    - [Plasticité à long terme](#Modélisation_plasticité_long_terme)
 
 
 
@@ -119,10 +118,6 @@ Cette modélisation prend en compte la plasticité synaptique
 <img src="Annexes/Images/plasticite_court_terme.png" width="75%" align="middle">
 
 
-<a name="Modélisation_plasticité_long_terme"/>
-
-
-### Plasticité à long terme :
 
 
 
