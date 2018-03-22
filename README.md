@@ -67,14 +67,14 @@ Un neurone est une unité fonctionnelle réalisant une sommation spatiale et tem
 
 Une première modélisation consiste à prendre en compte l'activité d'un neurone qu'une fois que celui ci s'est dépolarisé (le pas de temps étant alors cette période pendant laquelle le potentiel d'action existe). 
 
-<img src="Annexes/Images/calcul_non_matriciel.png" width="60%" align="middle">
+<img src="Annexes/Images/calcul_non_matriciel.png" width="66%" align="middle">
 
 Le principe sous jacent à cette formule est simplement de cumuler le potentiel du neurone (s'il ne s'est pas dépolarisé juste avant) avec tous les potentiels à ses entrées (donc prendre en compte tous les neurones lié à celui-ci et s'étant dépolarisé à l'étape précédente). 
 Rappelons qu'un neurone transmet un potentiel uniquement lorsque celui-ci se dépolarise (pour simplifier). 
 
 Pour adapter ce calcul à une forme matricielle (plus simple à implémenter), on définit la matrice suivante :
 
-<img src="Annexes/Images/matrice_T.png" width="15%" align="middle">
+<img src="Annexes/Images/matrice_T.png" width="22%" align="middle">
 
 Chaque coefficient de cette matrice permet de connaitre l'état des R neurones du réseau à l'étape précédente (1 si le neurone s'est dépolarisé, 0 sinon).
 
@@ -92,7 +92,7 @@ On constate que pour tout i, le coefficient d'indice (i,i) vaut 1; ce qui signif
 
 
 On réalise alors le calcul matriciel suivant afin de connaitre le potentiel d'un neurone à l'étape suivante :
-<img src="Annexes/Images/calcul_matriciel.png" width="60%" align="middle">
+<img src="Annexes/Images/calcul_matriciel.png" width="55%" align="middle">
 
 
 
