@@ -184,6 +184,8 @@ Pour des explications plus forunies sur nos modélisations se référer aux docu
 
 - [Semaine 1](/Annexes/Comptes_rendus/semaine_1.md)
 - [Semaine 2](/Annexes/Comptes_rendus/semaine_2.md)
+- [Semaine 3](/Annexes/Comptes_rendus/semaine_3.md)
+- [Semaine 4](/Annexes/Comptes_rendus/semaine_4.md)
 
 
 
