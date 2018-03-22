@@ -47,9 +47,10 @@ Se référer au document [Modélisation mathématique](/reseau-neuronal-biologiq
 voir le document origial [ici](https://docs.google.com/spreadsheets/d/1Vw6gvXTmE5HrGNWk1n0so6Bvhxphmd_pP5HaBENPydw/edit?usp=sharing)
 
 
-
+<a name="Modélisations"/>
 
 <a name="sujet"/>
+
 
 # Présentation du sujet :
 <img src="Annexes/Images/structure_neurone_biologique.png" width="65%" align="middle">
@@ -149,7 +150,7 @@ Notons également qu'a chaque nouvelle dépolarisation, le potentiel maximla att
 
 Il nous reste encore un dernier phénomène à prendre en compte : l'évolution du potentiel hors dépolarisation. En fait, si le potentiel globale du neurone est positif, alors ce potentile va décroite de manière exponetielle (pour une raison biologioque ayant un rapport avec le nombre d'ions évacues au cours du temps, qui est plus important lorsque le potentiel est grand). Et lorsque le potentiel globale est négatif (pour notre modélisation où l'on considère que le potentiel de repos est nul), il remonte de manière exponentielle vers 0. 
 
-<img src="Annexes/Images/evolution_potentiel_sans_depo.png" width="60%" align="middle">
+<img src="Annexes/Images/evolution_potentiel_sans_depo.png" width="80%" align="middle">
 
 On modélise donc ces deux phases par des fonctions exponentielles :
 
@@ -165,60 +166,10 @@ On modélise donc ces deux phases par des fonctions exponentielles :
 <a name="doc_ref"/>
 
 # Modélisations mathématiques :
+Pour des explications plus forunies sur nos modélisations se référer aux documents suivants :
 - Pour voir __notre modélisation mathématique__ dans son ensemble voir le docuement : [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou utiliser le lien vers le document latex : https://www.overleaf.com/read/wfvbnzmmkvtf
 - Pour voir __nos travaux de recherches préalables__ (travaux de découverte du sujet) s'orienter vers le document : [Préambule des recherches](/Annexes/Documents/recherche_reseau_neurone.pdf)
 
-
-
-<a name="Modélisations"/>
-
-# Modélisations d'un réseau neuronal biologique
-
-Pour les détails et explications de ces modélisations se référer au document [Modélisation mathématique](/reseau-neuronal-biologique-theorie.pdf) ou au document Latex : https://www.overleaf.com/read/wfvbnzmmkvtf
-
-
-<a name="modélisation_simplifiee"/>
-
-## Première modélisation :
-<img src="Annexes/Images/formule_model_simple.png" width="60%" align="middle">
-
-Nous traduisons cette formule sous forme matricielle afin de simplifier les calculs par la suite :
-<img src="Annexes/Images/formule_model_simple_matricielle.png" width="90%" align="middle">
-
-
-<a name="Modélisation_décroissance_potentiel"/>
-
-
-## Deuxième Modélisation :
-Dans cette modélisation, on prend en compte le temps de décroissance du potentiel après une dépolarisation du neurone considéré
-
-<img src="Annexes/Images/formule_decroissance_temps.png" width="90%" align="middle">
-
-
-
-<a name="Modélisation_efficacite_connexions"/>
-
-
-## Troisième Modélisation :
-Cette modélisation prend en compte l'efficacité des connexions entre neurone. Les seuls éléments à modifier par rapport à la modélisation précédente sont : 
-
-<img src="Annexes/Images/formule_poids_connexions.png" width="60%" align="middle">
-
-
-
-<a name="Modélisation_plasticité"/>
-
-
-## Quatrième Modélisation :
-Cette modélisation prend en compte la plasticité synaptique
-
-
-<a name="Modélisation_plasticité_court_terme"/>
-
-
-### Plasticité à court terme :
-
-<img src="Annexes/Images/plasticite_court_terme.png" width="75%" align="middle">
 
 
 
