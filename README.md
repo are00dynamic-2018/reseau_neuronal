@@ -126,7 +126,7 @@ On modifie alors la matrice C de la manière suivante :
 La première modélisation a également un autre défaut : son pas de temps. En effet, son pas de temps est celui du temps refactaire du neurone (temps pendant lequel le neurone ne peut pas être de nouveau dépolariser après s'être dépolariser une première fois). En fait, pendant cet interval de temps, le potentiel du neurone décroit quasiment jusqu'a sa valeur au repos. Alors, prendre un pas de temps aussi grand, c'est restreindre l'effet de la sommation temporelle que réalise les neurones biologiques (comme le montre la figure ci-dessous).
 
 
-<img src="Annexes/Images/figure_pas_de_temps.png" width="60%" align="middle">
+<img src="Annexes/Images/figure_pas_de_temps.png" width="80%" align="middle">
 
 
 Ainsi, nous devons réduire notre pas de temps (de l'ordre de 0.1 milliseconde). Réduire le pas de temps à un pas de temps plus petit que la période réfarctaire signifie que nous devons désormais modéliser l'evoltuion du potentiel d'un neurone pendant la phase de dépolarisation. 
@@ -151,10 +151,10 @@ Il nous reste encore un dernier phénomène à prendre en compte : l'évolution 
 
 <img src="Annexes/Images/evolution_potentiel_sans_depo.png" width="60%" align="middle">
 
-On modélise donc ces deux phases par des fonction exponentielle :
+On modélise donc ces deux phases par des fonctions exponentielles :
 
 
-<img src="Annexes/Images/courbes_hors_depo.png.png" width="60%" align="middle">
+<img src="Annexes/Images/courbes_hors_depo.png" width="60%" align="middle">
 
 
 
