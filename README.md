@@ -69,7 +69,7 @@ Une première modélisation consiste à prendre en compte l'activité d'un neuro
 
 On définit alors la matrice suivante :
 
-<img src="Annexes/Images/fmatrice_T.png" width="10%" align="middle">
+<img src="Annexes/Images/matrice_T.png" width="10%" align="middle">
 
 
 
