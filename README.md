@@ -104,6 +104,18 @@ Pour cette première modélisation, on choisit une fonction activatrice seuil :
 
 
 
+## Deuxième Modélisation :
+
+La dernière modélisation ne prennait pas en compte un phénomène essentiel dans le cas biologique : les ramifications de l'axone. En fait, le courant traverssant l'axone est sensiblement le même le long de tout l'axone. Mais, l'axone se divise en de nombreux embranchements qui seront reliés à d'autres neurones; et la qualité des connections n'est pas la même. Autrement dit, chaque neurone relié en reception à un même autre neurone ne recoit pas le même potentiel à une de ses entrées. 
+On peut résumer ce phénomène sur la graphique ci-dessous 
+:
+<img src="Annexes/Images/modelisation_poids_reseau_biologique.png" width="70%" align="middle">
+
+On modifie alors la matrice C de la manière suivante :
+
+<img src="Annexes/Images/matrice_C_poids.png" width="50%" align="middle">
+
+
 
 
 
