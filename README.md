@@ -186,7 +186,7 @@ On pose alors :
 
 
 
-<img src="Annexes/Images/formule_alcool.png" width="80%" align="middle">
+<img src="Annexes/Images/formule_alcool.png" width="60%" align="middle">
 
 
 <a name="doc_ref"/>
