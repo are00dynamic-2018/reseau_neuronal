@@ -59,6 +59,20 @@ voir le document origial [ici](https://docs.google.com/spreadsheets/d/1Vw6gvXTmE
 Un neurone est une unité fonctionnelle réalisant une sommation spatiale et temporelle de ses entrées (les dendrites) à tout instant. Si le résultat (alors sous la forme d'un potentiel électrique) est supérieur à un certain seuil, le neurone envoie un influx nerveux, aussi dit potentiel d'action, via son axone. Les synapses permettent alors la conversion de ce signal électrique en un signal chimique perceptible par les autres neurones qui y sont connectés. 
 
 
+
+
+<a name="modélisation_simplifiee"/>
+
+## Première modélisation :
+
+Une première modélisation consiste à prendre en compte l'activité d'un neurone qu'une fois que celui ci s'est dépolarisé (le pas de temps étant alors cette période pendant laquelle le potentiel d'action existe). 
+
+On définit alors la matrice suivante :
+
+<img src="Annexes/Images/fmatrice_T.png" width="10%" align="middle">
+
+
+
 <a name="doc_ref"/>
 
 # Modélisations mathématiques :
