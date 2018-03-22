@@ -12,8 +12,8 @@
   - [Une première modélisation (simplifiée)](#modélisation_simplifiee)
   - [Modélisation du poids des connexions](#Modélisation_2)
   - [Changement du pas de temps](#Modélisation_3)
+  - [Modélisation d'une susbtance psychoactive](#Modélisation_psycho)
 - [Modélisations mathématiques](#doc_ref) 
-
 
 
 
@@ -159,6 +159,30 @@ On modélise donc ces deux phases par des fonctions exponentielles :
 
 
 
+
+<a name="Modélisation_psycho"/>
+
+## Modélisation des effets d'une susbtance psychoactive :
+
+Le principe est simple : certaines entrées seront soient activées en permanence, soit ihnibées, soit non affectées. Pour modéliser ces effets, nous devons seulement changer décomposer la matrice C comme étant la somme de trois matrices (une contenant les entrées non affectées, une autre contenant les entrées en permanence stimulées et une dernière contenant les entrées en permanence ihnibées). 
+
+En fait, les effets d’une substance psychoactive diffèrent selon son type que l’on peut regrouper
+au nombre de trois :
+- Les stimulants (comme la caféine, la cocaïne, la nicotine) qui ont pour effets de favoriser une
+hyperactivité du cerveau. En d’autres termes, ces molécules se fixent aux récepteurs postsynaptiques
+et simulent la présence de neurorécepteurs.
+- Les dépresseurs (comme l’alcool, la morphine, l’opium) abaissant l’activité globale du cerveau.
+Ces molécules se fixent également aux récepteurs postsynaptiques mais cette fois pour stopper
+la réception de neurorécepteurs.
+- Les perturbateurs qui vont à la fois simuler l’arrivée de neurorécepteurs pour certains récepteurs
+et stopper la réception pour d’autres.
+Pour modéliser ces effets, nous devons séparer la matrice C en somme de matrices, chacune associée
+à un type d’effet. 
+
+On pose alors :
+
+
+<img src="Annexes/Images/matrices_alcool.png" width="80%" align="middle">
 
 
 
