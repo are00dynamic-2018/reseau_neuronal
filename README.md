@@ -73,6 +73,22 @@ On définit alors la matrice suivante :
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="doc_ref"/>
 
 # Modélisations mathématiques :
