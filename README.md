@@ -69,8 +69,9 @@ Une première modélisation consiste à prendre en compte l'activité d'un neuro
 
 <img src="Annexes/Images/calcul_non_matriciel.png" width="66%" align="middle">
 
+
 Le principe sous jacent à cette formule est simplement de cumuler le potentiel du neurone (s'il ne s'est pas dépolarisé juste avant) avec tous les potentiels à ses entrées (donc prendre en compte tous les neurones lié à celui-ci et s'étant dépolarisé à l'étape précédente). 
-Rappelons qu'un neurone transmet un potentiel uniquement lorsque celui-ci se dépolarise (pour simplifier). 
+Rappelons qu'un neurone transmet un potentiel uniquement lorsque celui-ci se dépolarise (pour simplifier).
 
 Pour adapter ce calcul à une forme matricielle (plus simple à implémenter), on définit la matrice suivante :
 
@@ -95,6 +96,9 @@ On réalise alors le calcul matriciel suivant afin de connaitre le potentiel d'u
 <img src="Annexes/Images/calcul_matriciel.png" width="55%" align="middle">
 
 
+Pour cette première modélisation, on choisit une fonction activatrice seuil :
+
+<img src="Annexes/Images/fonction_seuil.png" width="70%" align="middle">
 
 
 
