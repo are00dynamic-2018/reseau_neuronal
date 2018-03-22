@@ -7,14 +7,12 @@
 - [Planning des semaines](#agenda)
 - [Membre du groupe de recherche](#membres)  
 - [Attribution des taches](#taches)
-- [Présentation sommaire du sujet](#sujet)
-- [Modélisations mathématiques](#doc_ref)  
 - [Modélisation d'un réseau biologique](#Modélisations)
+  - [Présentation sommaire du sujet](#sujet)
   - [Une première modélisation (simplifiée)](#modélisation_simplifiee)
-  - [Prise en compte de la décroissace du potentiel](#Modélisation_décroissance_potentiel)
-  - [Prise en compte de l'efficacité des connexions neuronales](#Modélisation_efficacite_connexions)
-  - [Prise en compte de la plasticité synaptique](#Modélisation_plasticité)
-    - [Plasticité à court terme](#Modélisation_plasticité_court_terme)
+  - [Prise en compte de la décroissace du potentiel](#Modélisation_2)
+  - [Prise en compte de l'efficacité des connexions neuronales](#Modélisation_3)
+- [Modélisations mathématiques](#doc_ref) 
 
 
 
@@ -54,10 +52,12 @@ voir le document origial [ici](https://docs.google.com/spreadsheets/d/1Vw6gvXTmE
 <a name="sujet"/>
 
 # Présentation du sujet :
-<img src="Annexes/Images/structure_neurone_biologique.png" width="50%" align="middle">
+<img src="Annexes/Images/structure_neurone_biologique.png" width="65%" align="middle">
 
 Un neurone est une unité fonctionnelle réalisant une sommation spatiale et temporelle de ses entrées (les dendrites) à tout instant. Si le résultat (alors sous la forme d'un potentiel électrique) est supérieur à un certain seuil, le neurone envoie un influx nerveux, aussi dit potentiel d'action, via son axone. Les synapses permettent alors la conversion de ce signal électrique en un signal chimique perceptible par les autres neurones qui y sont connectés. 
 
+
+_Notre but est de simuler le fonctionnement d'un reseau de neurone biologique afin d'observer son comportement au repos et lorsque des substances psychoactives interfèrent avec lui._
 
 
 
@@ -104,6 +104,8 @@ Pour cette première modélisation, on choisit une fonction activatrice seuil :
 
 
 
+<a name="modélisation_2"/>
+
 ## Deuxième Modélisation :
 
 La dernière modélisation ne prennait pas en compte un phénomène essentiel dans le cas biologique : les ramifications de l'axone. En fait, le courant traverssant l'axone est sensiblement le même le long de tout l'axone. Mais, l'axone se divise en de nombreux embranchements qui seront reliés à d'autres neurones; et la qualité des connections n'est pas la même. Autrement dit, chaque neurone relié en reception à un même autre neurone ne recoit pas le même potentiel à une de ses entrées. 
@@ -113,8 +115,46 @@ On peut résumer ce phénomène sur la graphique ci-dessous
 
 On modifie alors la matrice C de la manière suivante :
 
-<img src="Annexes/Images/matrice_C_poids.png" width="50%" align="middle">
+<img src="Annexes/Images/matrice_C_poids.png" width="45%" align="middle">
 
+
+
+<a name="modélisation_3"/>
+
+## Dernière modélisation :
+
+La première modélisation a également un autre défaut : son pas de temps. En effet, son pas de temps est celui du temps refactaire du neurone (temps pendant lequel le neurone ne peut pas être de nouveau dépolariser après s'être dépolariser une première fois). En fait, pendant cet interval de temps, le potentiel du neurone décroit quasiment jusqu'a sa valeur au repos. Alors, prendre un pas de temps aussi grand, c'est restreindre l'effet de la sommation temporelle que réalise les neurones biologiques (comme le montre la figure ci-dessous).
+
+
+<img src="Annexes/Images/figure_pas_de_temps.png" width="60%" align="middle">
+
+
+Ainsi, nous devons réduire notre pas de temps (de l'ordre de 0.1 milliseconde). Réduire le pas de temps à un pas de temps plus petit que la période réfarctaire signifie que nous devons désormais modéliser l'evoltuion du potentiel d'un neurone pendant la phase de dépolarisation. 
+En effet, la transmission du potentiel d'action ne se réduit pas à la phase de dépolarisation, comme le montre la figure ci-dessous :
+
+<img src="Annexes/Images/visibilite_neurone.png" width="60%" align="middle">
+
+
+Ainsi, nous devons modéliser cette évolution de la valeur du potetiel d'action au cours de la dépolarisation et de la repolarisation (potentiel alors percu par les autres neurones). Ainsi, le neurone n'est plus visible qu'a une seule étape comme cela était le cas dans la première modélisation. 
+
+On modélise les phases de dépolarisation et de repolarisation par des fonctions affines comme ci-dessous :
+
+<img src="Annexes/Images/modelisation_depo_repo.png" width="60%" align="middle">
+
+
+Notons également qu'a chaque nouvelle dépolarisation, le potentiel maximla atteint diminue pourvu que ces dépolarisation aient lieu en un court lapse de temps. Puis au fil du temps (en abscence de dépolarisation) le potentiel maximal atteint de nouveau sa valeur de départ; comme le montre la figure ci-dessous :
+
+<img src="Annexes/Images/evolution_potentiel_max.png" width="60%" align="middle">
+
+
+Il nous reste encore un dernier phénomène à prendre en compte : l'évolution du potentiel hors dépolarisation. En fait, si le potentiel globale du neurone est positif, alors ce potentile va décroite de manière exponetielle (pour une raison biologioque ayant un rapport avec le nombre d'ions évacues au cours du temps, qui est plus important lorsque le potentiel est grand). Et lorsque le potentiel globale est négatif (pour notre modélisation où l'on considère que le potentiel de repos est nul), il remonte de manière exponentielle vers 0. 
+
+<img src="Annexes/Images/evolution_potentiel_sans_depo.png" width="60%" align="middle">
+
+On modélise donc ces deux phases par des fonction exponentielle :
+
+
+<img src="Annexes/Images/courbes_hors_depo.png.png" width="60%" align="middle">
 
 
 
